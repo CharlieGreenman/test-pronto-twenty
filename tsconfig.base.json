@@ -29,6 +29,9 @@
       ],
       "@test-pronto-twenty/common/common-services": [
         "libs/common/common-services/src/index.ts"
+      ],
+      "@test-pronto-twenty/common/common-guards": [
+        "libs/common/common-guards/src/index.ts"
       ]
     }
   },
