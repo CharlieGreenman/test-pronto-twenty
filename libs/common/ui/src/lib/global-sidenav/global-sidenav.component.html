@@ -1,0 +1,10 @@
+<mat-sidenav-container class="GlobalSidenav__container">
+    <mat-sidenav #sidenav
+        mode="over"
+        class="GlobalSidenav__nav"
+        [(opened)]="opened"
+        role="navigation"
+    ><ng-content select="[sidenav]"></ng-content>
+    </mat-sidenav>
+    <mat-sidenav-content><ng-content></ng-content></mat-sidenav-content>
+</mat-sidenav-container>
