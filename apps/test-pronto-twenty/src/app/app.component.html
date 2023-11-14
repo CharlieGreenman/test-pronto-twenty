@@ -2,6 +2,20 @@
   (sideNavToggle)="sideNavToggle()"
 ></test-pronto-twenty-global-header>
 <div class="wrapper">
-  <div class="container"></div>
+  <div class="container">
+    <test-pronto-twenty-global-sidenav [opened]="sideNavOpen">
+      <mat-nav-list sidenav>
+        <a
+          mat-list-item
+          routerLinkActive="active-link"
+          routerLink="/"
+          (click)="sideNavToggle()"
+        >
+          <span class="App__sidenav-text">Home</span>
+        </a>
+      </mat-nav-list>
+      <router-outlet></router-outlet>
+    </test-pronto-twenty-global-sidenav>
+  </div>
 </div>
 <test-pronto-twenty-global-footer> </test-pronto-twenty-global-footer>
