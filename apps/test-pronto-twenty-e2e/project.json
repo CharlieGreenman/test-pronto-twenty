@@ -1,0 +1,29 @@
+{
+  "name": "test-pronto-twenty-e2e",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/test-pronto-twenty-e2e/src",
+  "projectType": "application",
+  "targets": {
+    "e2e": {
+      "executor": "@nx/cypress:cypress",
+      "options": {
+        "cypressConfig": "apps/test-pronto-twenty-e2e/cypress.json",
+        "devServerTarget": "test-pronto-twenty:serve:development"
+      },
+      "configurations": {
+        "production": {
+          "devServerTarget": "test-pronto-twenty:serve:production"
+        }
+      }
+    },
+    "lint": {
+      "executor": "@nx/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["apps/test-pronto-twenty-e2e/**/*.{js,ts}"]
+      }
+    }
+  },
+  "tags": [],
+  "implicitDependencies": ["test-pronto-twenty"]
+}
