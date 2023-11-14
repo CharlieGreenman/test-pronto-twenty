@@ -26,7 +26,10 @@
     "zone.js": "0.13.1",
     "@nx/angular": "16.7.4",
     "@angular/material": "16.2.1",
-    "@angular/cdk": "16.2.1"
+    "@angular/cdk": "16.2.1",
+    "@fortawesome/fontawesome-svg-core": "6.4.0",
+    "@fortawesome/free-solid-svg-icons": "6.4.0",
+    "@fortawesome/angular-fontawesome": "0.13.0"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "16.2.0",
