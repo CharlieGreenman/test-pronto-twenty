@@ -35,6 +35,9 @@
       ],
       "@test-pronto-twenty/data-access": [
         "libs/data-access/src/index.ts"
+      ],
+      "@test-pronto-twenty/data-services": [
+        "libs/data-services/src/index.ts"
       ]
     }
   },
