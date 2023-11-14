@@ -1,0 +1,26 @@
+<mat-toolbar class="GlobalHeader" color="primary">
+  <button
+      mat-icon-button
+      class="small-icon-button"
+      (click)="emitSideNavToggle()"
+    >
+      <mat-icon>menu</mat-icon>
+  </button>
+  <div class="Toolbar__Icons">
+    <fa-icon
+      [icon]="faBell"
+      aria-hidden="false"
+      aria-label="Notification Icon"
+    ></fa-icon>
+    <fa-icon
+      [icon]="faQuestionCircle"
+      aria-hidden="false"
+      aria-label="Question Icon"
+    ></fa-icon>
+    <fa-icon
+      [icon]="faUserCircle"
+      aria-hidden="false"
+      aria-label="Account Icon"
+    ></fa-icon>
+  </div>
+</mat-toolbar>
