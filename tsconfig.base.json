@@ -44,6 +44,9 @@
       ],
       "@test-pronto-twenty/data-models": [
         "libs/data-models/src/index.ts"
+      ],
+      "@test-pronto-twenty/common/common-environment": [
+        "libs/common/common-environment/src/index.ts"
       ]
     }
   },
