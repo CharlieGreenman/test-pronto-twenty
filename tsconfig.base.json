@@ -41,6 +41,9 @@
       ],
       "@test-pronto-twenty/data-graphql": [
         "libs/data-graphql/src/index.ts"
+      ],
+      "@test-pronto-twenty/data-models": [
+        "libs/data-models/src/index.ts"
       ]
     }
   },
