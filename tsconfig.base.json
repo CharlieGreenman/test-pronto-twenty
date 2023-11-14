@@ -32,6 +32,9 @@
       ],
       "@test-pronto-twenty/common/common-guards": [
         "libs/common/common-guards/src/index.ts"
+      ],
+      "@test-pronto-twenty/data-access": [
+        "libs/data-access/src/index.ts"
       ]
     }
   },
